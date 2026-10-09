@@ -1,28 +1,28 @@
 class Ytgrab < Formula
   desc "Local YouTube downloader with a browser interface"
   homepage "https://github.com/Sanoy24/ytgrab"
-  version "1.18.0"
+  version "1.19.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Sanoy24/ytgrab/releases/download/v1.18.0/ytgrab-1.18.0-darwin-arm64.tar.gz"
-      sha256 "8527a531ad8170a2d8e5abf4feabc9aeb65e0df84cbe8ff865fc278857f4011a"
+      url "https://github.com/Sanoy24/ytgrab/releases/download/v1.19.0/ytgrab-1.19.0-darwin-arm64.tar.gz"
+      sha256 "82a34ed9496775f19478fa29eff970644081d77c2ae425a9f8e905d94795de94"
     end
     on_intel do
-      url "https://github.com/Sanoy24/ytgrab/releases/download/v1.18.0/ytgrab-1.18.0-darwin-amd64.tar.gz"
-      sha256 "e0571c031e362330a731e76041b55b452a2e3566ea706bed269c5c70c0f510a8"
+      url "https://github.com/Sanoy24/ytgrab/releases/download/v1.19.0/ytgrab-1.19.0-darwin-amd64.tar.gz"
+      sha256 "fdf029b87366dc5b8a73f46ddec832ecab20d429915bac5552e0eb8ae813f88f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Sanoy24/ytgrab/releases/download/v1.18.0/ytgrab-1.18.0-linux-arm64.tar.gz"
-      sha256 "fe26e484464ae8536f48733513080fd6912794314d1494cbb5bf6b2335b1799f"
+      url "https://github.com/Sanoy24/ytgrab/releases/download/v1.19.0/ytgrab-1.19.0-linux-arm64.tar.gz"
+      sha256 "fcc995d7bd081bcbfc979638babb501355fbfe4e7b1054db4337b4b14ab13e87"
     end
     on_intel do
-      url "https://github.com/Sanoy24/ytgrab/releases/download/v1.18.0/ytgrab-1.18.0-linux-amd64.tar.gz"
-      sha256 "e7ae21e86da55a5b6b85088a7b86a4d0d1eee847c0043ac68af912aa1901fc94"
+      url "https://github.com/Sanoy24/ytgrab/releases/download/v1.19.0/ytgrab-1.19.0-linux-amd64.tar.gz"
+      sha256 "65ae6792570f5f6463c2fe54024f56c0b9aba3ad447e151a963cd6626e09472a"
     end
   end
 
@@ -42,7 +42,7 @@ class Ytgrab < Formula
       applications menu (Linux); it then runs from the menu bar:
         ytgrab app
       yt-dlp comes from Homebrew; update it with:
-        brew upgrade yt-dlp
+        brew update && brew upgrade yt-dlp
     EOS
   end
 
