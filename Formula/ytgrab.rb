@@ -1,28 +1,28 @@
 class Ytgrab < Formula
   desc "Local YouTube downloader with a browser interface"
   homepage "https://github.com/Sanoy24/ytgrab"
-  version "1.22.0"
+  version "1.23.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Sanoy24/ytgrab/releases/download/v1.22.0/ytgrab-1.22.0-darwin-arm64.tar.gz"
-      sha256 "1faa87a1e55fe4c674034dd56d7f30a1ad2d3b235515c41146edd64ec9b2ca77"
+      url "https://github.com/Sanoy24/ytgrab/releases/download/v1.23.0/ytgrab-1.23.0-darwin-arm64.tar.gz"
+      sha256 "fdd5aeb69cb16a6595c3e8b3c3aae630232cb3b1f22c4a79a6d7b8cb4b86ef43"
     end
     on_intel do
-      url "https://github.com/Sanoy24/ytgrab/releases/download/v1.22.0/ytgrab-1.22.0-darwin-amd64.tar.gz"
-      sha256 "b33db7ff90bcb08c484722c171d833d7b4f84d7045eaf70e76f1d64a4fefe431"
+      url "https://github.com/Sanoy24/ytgrab/releases/download/v1.23.0/ytgrab-1.23.0-darwin-amd64.tar.gz"
+      sha256 "21f545e8f949c8794c3c8ba28b837590bafb6b4dc1259d0dba1ee67fed305b3d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Sanoy24/ytgrab/releases/download/v1.22.0/ytgrab-1.22.0-linux-arm64.tar.gz"
-      sha256 "a87b379214262058237da9904e79f0ebfe67792c2b2384090eb74464cbc41743"
+      url "https://github.com/Sanoy24/ytgrab/releases/download/v1.23.0/ytgrab-1.23.0-linux-arm64.tar.gz"
+      sha256 "f82f9da88f8564189cb56250218acda1e03a8bb3abe741cbca407a59b9aabcff"
     end
     on_intel do
-      url "https://github.com/Sanoy24/ytgrab/releases/download/v1.22.0/ytgrab-1.22.0-linux-amd64.tar.gz"
-      sha256 "a4e3966c53c7ff0291beb8e5f6da5b60338d9dfd896dc79708201ba16c6d0886"
+      url "https://github.com/Sanoy24/ytgrab/releases/download/v1.23.0/ytgrab-1.23.0-linux-amd64.tar.gz"
+      sha256 "2483c3edd7128edc377065b4d69502cc842b1ccc4d8a9eb85e3385bb34255a5a"
     end
   end
 
